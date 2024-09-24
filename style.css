@@ -1,0 +1,48 @@
+body{
+    margin: 0 300px;
+    text-align: justify;
+}
+header, body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+ul.general{
+    display: inline-flex;
+    position: absolute;
+    right: 10px;
+    text-align: right;
+  }
+  
+  ul.general li{
+    display: inline-flex;
+    text-decoration: underline;
+    margin-left: 25px;
+  }
+
+  li a {
+    color: inherit;
+  }
+
+  body{
+    text-align: justify;
+  }
+
+  button{
+    width: 16em;
+    height: 4em;
+    color: white;
+    background-color:lightgreen;
+    border: 1px solid green;
+    margin-bottom: 4em;
+  }
+
+  h2 {
+    margin-top: 4em;
+  }
+
+  img{
+    margin-top: 1em;
+    width:10em;
+  }
